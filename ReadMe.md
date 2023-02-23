@@ -1,10 +1,10 @@
-Furniture Classification
+#Furniture Classification
 
-How to train?
-  Inside Script folder:
-    python train.py
+##How to train?
+  Go to Script folder and Run:
+      python train.py
     
-For test the model:
+##For test the model:
   
   Load the checkpoint which is inside the checkpoints folder into infer script.
   Give path of image to be tested in __main__().
