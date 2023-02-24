@@ -3,8 +3,12 @@
   Furniture classification is classification application that is buit using convolution neural network. I have used Mobilenet v2 to training. Furniture dataset has 3 classes which is chair, sofa and bed. Each folder contains 100 images. 
 
 ## How to train?
+
+  First of all install the all the requiremets,
+
+  ```pip install -r requirements.txt```
   
-  Go to Script folder and Run:
+  After that Go to Script folder and Run:
   
    ```python train.py```
     
