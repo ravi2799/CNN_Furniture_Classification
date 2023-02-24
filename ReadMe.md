@@ -21,5 +21,24 @@
     - it will run on 8383 port
     - You can test it using POST MAN. Link: --> http://0.0.0.0:8383/getPrediction
       Use body and upload image.
+      
+## Dockerization
     
+    You can create docker image using Dockerfile.txt.
     
+      ** To build Image: **
+        There is Dockerfile inside Scripts. Go to that folder and run the below command.
+        docker build -f Dockerfile.txt -t name .
+      
+      ** To Run: **
+        docker run -d -p 8383 --name testapp -t name
+        
+        It will run the api on 8383 port..
+     
+     ** To go inside Docker **
+        
+        docker exec -it testapp bash
+        
+        You can also run api here using python api.py
+        
+      
