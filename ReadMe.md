@@ -22,6 +22,10 @@
     - You can test it using POST MAN. Link: --> http://0.0.0.0:8383/getPrediction
       Use body and upload image.
       
+  
+  ![image](https://user-images.githubusercontent.com/68138958/221064793-08b2d89c-a4d2-4f98-81df-3a8246159937.png)
+
+      
 ## Dockerization
     
     You can create docker image using Dockerfile.txt.
