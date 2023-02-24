@@ -1,5 +1,7 @@
 # Furniture Classification
 
+  Furniture classification is classification application that is buit using convolution neural network. I have used Mobilenet v2 to training. Furniture dataset has 3 classes which is chair, sofa and bed. Each folder contains 100 images. 
+
 ## How to train?
   
   Go to Script folder and Run:
