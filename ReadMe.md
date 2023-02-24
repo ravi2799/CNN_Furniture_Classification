@@ -16,7 +16,7 @@
     ```python infer.py```
     
 ## For run API:
-    
+    I have used Sanic to build the api.
     ```python api.py```
     - it will run on 8383 port
     - You can test it using POST MAN. Link: --> http://0.0.0.0:8383/getPrediction
